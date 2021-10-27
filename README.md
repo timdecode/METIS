@@ -1,3 +1,16 @@
+# Hack
+
+This fork includes a handcrafted Xcode project file, without any CMake stuff. I would like to use
+this in another Xcode project without messing around with CMake and Makefiles, and building 
+dynamic libraries, etc. At least for my needs, this can be put in an Xcode project file and things
+should just work. 
+
+If METIS moves towards standard CMake (without the current Makefile stuff), then I'll revist this.
+
+I manually embedded GKlib, it would be better as a submodule, but again, I want something simple
+for my project. 
+
+
 # METIS 
 
 METIS is a set of serial programs for partitioning graphs, partitioning finite element meshes, 

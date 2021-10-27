@@ -57,6 +57,7 @@ graphs/*.part.*
 graphs/*.iperm
 graphs/*.epart.*
 graphs/*.npart.*
-GKlib
-.svn/
 
+METIS.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+METIS.xcodeproj/project.xcworkspace/xcuserdata/timothyd.xcuserdatad/UserInterfaceState.xcuserstate
+METIS.xcodeproj/xcuserdata/timothyd.xcuserdatad/xcschemes/xcschememanagement.plist

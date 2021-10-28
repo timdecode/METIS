@@ -95,7 +95,7 @@ SIGTHROW:
     \param ne is the number of elements in the mesh.
     \param nn is the number of nodes in the mesh.
     \param eptr is an array of size ne+1 used to mark the start and end 
-           locations in the nind array.
+           locations in the nind array. The last entry marks the end of the last entry.
     \param eind is an array that stores for each element the set of node IDs 
            (indices) that it is made off. The length of this array is equal
            to the total number of nodes over all the mesh elements.

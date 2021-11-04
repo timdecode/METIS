@@ -77,10 +77,21 @@ typedef __int64 int64_t;
 #define INT64_MIN    ((int64_t)_I64_MIN)
 #define INT64_MAX    _I64_MAX
 #else
-#include <inttypes.h>
+// Tim: 2021-11-03
+// #include <inttypes.h>
+// When I try to use METIS from Swift, I get this error.
+// "include of non-modular header inside framework module 'METIS': blahBlah... usr/lib/swift/clang/include/inttypes.h'"
+// We don't get the error with this include
+#include <stdint.h>
+
 #endif
 #endif
 
+// Tim: 2021-11-03
+// I'm having issues with importing this framework from Swift, even when I device the IDX and REAL TYPE WIDTHS.
+// Therefore, I'm hard coding them. We want 32-bit anyways.
+#define IDXTYPEWIDTH 32
+#define REALTYPEWIDTH 32
 
 /*------------------------------------------------------------------------
 * Setup the basic datatypes

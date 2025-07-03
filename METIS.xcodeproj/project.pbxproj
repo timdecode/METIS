@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -203,10 +203,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		044F99312728EDF100195AEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -358,7 +356,6 @@
 /* Begin PBXHeadersBuildPhase section */
 		044F992F2728EDF100195AEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				044F9B202728F60500195AEE /* gk_mkblas.h in Headers */,
 				044F9B052728F60500195AEE /* gk_macros.h in Headers */,
@@ -391,7 +388,6 @@
 				044F99722728EE7200195AEE /* stdheaders.h in Headers */,
 				044F9AFA2728F60500195AEE /* gk_externs.h in Headers */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
@@ -406,8 +402,6 @@
 				044F99322728EDF100195AEE /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = METIS;
 			productName = METIS;
@@ -429,7 +423,6 @@
 				};
 			};
 			buildConfigurationList = 044F992E2728EDF100195AEE /* Build configuration list for PBXProject "METIS" */;
-			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -437,6 +430,7 @@
 				Base,
 			);
 			mainGroup = 044F992A2728EDF100195AEE;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 044F99352728EDF100195AEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -449,18 +443,15 @@
 /* Begin PBXResourcesBuildPhase section */
 		044F99322728EDF100195AEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				044F9B172728F60500195AEE /* LICENSE.txt in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		044F99302728EDF100195AEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				044F9B1D2728F60500195AEE /* getopt.c in Sources */,
 				044F9AE32728F60500195AEE /* itemsets.c in Sources */,
@@ -524,12 +515,11 @@
 				044F997D2728EE7300195AEE /* compress.c in Sources */,
 				044F99942728EE7300195AEE /* checkgraph.c in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		044F99392728EDF100195AEE /* Debug */ = {
+		044F99392728EDF100195AEE /* Debug configuration for PBXProject "METIS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -595,7 +585,7 @@
 			};
 			name = Debug;
 		};
-		044F993A2728EDF100195AEE /* Release */ = {
+		044F993A2728EDF100195AEE /* Release configuration for PBXProject "METIS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -655,7 +645,7 @@
 			};
 			name = Release;
 		};
-		044F993C2728EDF100195AEE /* Debug */ = {
+		044F993C2728EDF100195AEE /* Debug configuration for PBXNativeTarget "METIS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -691,7 +681,7 @@
 			};
 			name = Debug;
 		};
-		044F993D2728EDF100195AEE /* Release */ = {
+		044F993D2728EDF100195AEE /* Release configuration for PBXNativeTarget "METIS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -733,19 +723,17 @@
 		044F992E2728EDF100195AEE /* Build configuration list for PBXProject "METIS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				044F99392728EDF100195AEE /* Debug */,
-				044F993A2728EDF100195AEE /* Release */,
+				044F99392728EDF100195AEE /* Debug configuration for PBXProject "METIS" */,
+				044F993A2728EDF100195AEE /* Release configuration for PBXProject "METIS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		044F993B2728EDF100195AEE /* Build configuration list for PBXNativeTarget "METIS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				044F993C2728EDF100195AEE /* Debug */,
-				044F993D2728EDF100195AEE /* Release */,
+				044F993C2728EDF100195AEE /* Debug configuration for PBXNativeTarget "METIS" */,
+				044F993D2728EDF100195AEE /* Release configuration for PBXNativeTarget "METIS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
